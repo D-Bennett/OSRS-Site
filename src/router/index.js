@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import FarmingTreeRunsView from '../views/farming/TreeRunsView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
