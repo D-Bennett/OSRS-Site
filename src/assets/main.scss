@@ -1,0 +1,27 @@
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+
+/* Custom Colours */
+$hw_yellow: #ffda22;
+$hw_amber: #f7a600;
+$hw_blue: #2d9bc8;
+$hw_light_blue: #a7cae4;
+$hw_dark_blue: #384f87;
+$hw_grey: #8c8c8c;
+$hw_charcoal: #575756;
+
+/* Addition bootstrap 'theme' colours, using hw colours. */
+$custom-colors: (
+  "hw-yellow": $hw_yellow,
+  "hw-amber": $hw_amber,
+  "hw-blue": $hw_blue,
+  "hw-light-blue": $hw_light_blue,
+  "hw-dark-blue": $hw_dark_blue,
+  "hw-grey": $hw_grey,
+  "hw-charcoal": $hw_charcoal
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
