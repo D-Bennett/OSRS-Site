@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'farming_treeruns',
       component: FarmingTreeRunsView
     },
+    {
+      path: '/clue-hunting/lightbox-solver',
+      name: 'cluehunting_lightboxsolver',
+      component: () => import('../views/clue_hunting/LightboxSolverView.vue')
+    },
   ]
 })
 

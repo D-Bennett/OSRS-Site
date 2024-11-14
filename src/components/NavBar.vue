@@ -18,6 +18,14 @@
               <RouterLink class="nav-link" to="/farming/tree-runs">Tree runs</RouterLink>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Clue Hunting
+            </a>
+            <ul class="dropdown-menu">
+              <RouterLink class="nav-link" to="/clue-hunting/lightbox-solver">Lightbox Solver</RouterLink>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
