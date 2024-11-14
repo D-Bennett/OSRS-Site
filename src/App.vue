@@ -8,8 +8,8 @@
 
     <NavBar />
 
-    <div class="col">
-      <div class="row">
+    <div class="row">
+      <div class="col">
         <RouterView />
       </div>
     </div>
